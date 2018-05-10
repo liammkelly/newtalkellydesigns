@@ -1,0 +1,349 @@
+@font-face {
+  font-family: Hero;
+  src: url("../../assets/fonts/Hero/Hero.otf") format("opentype");
+}
+
+@font-face {
+  font-family: HeroLight;
+  src: url("../../assets/fonts/Hero/HeroLight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Audrey;
+  src: url("../../assets/fonts/Audrey/Audrey-Normal.otf") format("opentype");
+}
+
+@font-face {
+  font-family: AudreyBold;
+  src: url("../../assets/fonts/Audrey/Audrey-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: AudreyMedium;
+  src: url("../../assets/fonts/Audrey/Audrey-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Infinity;
+  src: url("../../assets/fonts/Infinity/Infinity.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Noir;
+  src: url("../../assets/fonts/NOIR/Noir_regular.otf") format("opentype");
+}
+
+/* line 4, ../compass/sass/core.scss */
+body {
+  position: relative;
+  background: white;
+  font-size: 1.25rem;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 12, ../compass/sass/core.scss */
+body, p, ul, ol, button, input, select, textarea {
+  font-family: Hero, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  line-height: 1.8em;
+}
+
+/* line 20, ../compass/sass/core.scss */
+#mainArea {
+  width: 100%;
+  float: left;
+}
+
+/* line 25, ../compass/sass/core.scss */
+#header {
+  background-color: white;
+  display: block;
+  font-size: 12px;
+  font-style: normal;
+  letter-spacing: .12em;
+  line-height: 1 !important;
+  margin: auto;
+  max-width: 1200px;
+  padding: 22px 0;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: auto;
+}
+
+/* line 41, ../compass/sass/core.scss */
+#navAreaWrapper {
+  width: 100%;
+}
+/* line 44, ../compass/sass/core.scss */
+#navAreaWrapper #navArea {
+  height: 100px;
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+/* line 51, ../compass/sass/core.scss */
+#navAreaWrapper #navArea #logo {
+  font-weight: bold;
+  float: left;
+}
+/* line 56, ../compass/sass/core.scss */
+#navAreaWrapper #navArea #siteName {
+  float: left;
+  font-weight: bold;
+  font-family: Hero;
+  color: #111111;
+  padding: 40px 1.4em 40px 1.8em;
+}
+/* line 64, ../compass/sass/core.scss */
+#navAreaWrapper #navArea #menuBtn {
+  display: none;
+  float: left;
+}
+/* line 69, ../compass/sass/core.scss */
+#navAreaWrapper #navArea #navLinks {
+  float: left;
+}
+/* line 73, ../compass/sass/core.scss */
+#navAreaWrapper #navArea ul {
+  font-size: 0;
+  letter-spacing: 0;
+  margin: 0 0 0 -5px;
+  list-style: none;
+  list-style-image: none;
+  padding: 0;
+}
+/* line 81, ../compass/sass/core.scss */
+#navAreaWrapper #navArea ul li {
+  display: inline-block;
+  float: left;
+  line-height: 1.2em;
+  padding: 38px 1.4em;
+}
+/* line 87, ../compass/sass/core.scss */
+#navAreaWrapper #navArea ul li a {
+  color: #999999 !important;
+  text-decoration: none;
+}
+
+/* line 98, ../compass/sass/core.scss */
+#bodyArea #bannerAreaWrapper {
+  position: relative;
+  width: auto;
+  margin: 0;
+  display: block;
+}
+/* line 104, ../compass/sass/core.scss */
+#bodyArea #bannerAreaWrapper #bannerArea {
+  height: 440px;
+  background-image: url(../../assets/images/masthead.jpg);
+  background-position: 60% 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 114, ../compass/sass/core.scss */
+#showMenu i {
+  font-size: 1.25em;
+}
+
+/* line 119, ../compass/sass/core.scss */
+.bodyElement {
+  float: left;
+  clear: both;
+  text-align: center;
+  width: 80%;
+  margin: 60px 10% 0;
+}
+
+/* line 127, ../compass/sass/core.scss */
+.bodyElementGroup {
+  float: left;
+  width: 80%;
+  margin: 30px 10% 0;
+}
+/* line 132, ../compass/sass/core.scss */
+.bodyElementGroup .threeColumn {
+  width: 31%;
+  float: left;
+  padding-left: 3.5%;
+}
+/* line 137, ../compass/sass/core.scss */
+.bodyElementGroup .threeColumn:first-child {
+  padding-left: 0;
+}
+/* line 141, ../compass/sass/core.scss */
+.bodyElementGroup .threeColumn img {
+  vertical-align: middle;
+  max-width: 100%;
+  margin: 5px 0;
+}
+
+/* line 150, ../compass/sass/core.scss */
+.gallery {
+  float: left;
+  width: 96%;
+  margin: 20px 2% 0;
+}
+/* line 155, ../compass/sass/core.scss */
+.gallery .photo {
+  float: left;
+  width: 32%;
+  margin: 0 0 0.8% 0.8%;
+}
+/* line 160, ../compass/sass/core.scss */
+.gallery .photo:first-child {
+  margin: 0;
+}
+/* line 164, ../compass/sass/core.scss */
+.gallery .photo img {
+  width: 100%;
+}
+
+/* line 170, ../compass/sass/core.scss */
+.subhead {
+  float: left;
+  clear: both;
+}
+
+/* line 175, ../compass/sass/core.scss */
+.photoCredit {
+  float: left;
+  clear: both;
+  font-size: 10px;
+  margin: 0 0 10px;
+}
+
+/* line 182, ../compass/sass/core.scss */
+.title {
+  font-family: Hero;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  font-weight: 500;
+  font-size: 13px;
+  font-style: normal;
+}
+
+/* line 191, ../compass/sass/core.scss */
+.copy {
+  font-family: HeroLight;
+  float: left;
+  clear: both;
+  font-size: 14px;
+}
+
+/* line 198, ../compass/sass/core.scss */
+.big {
+  font-size: 36px;
+  line-height: 1.2em;
+}
+
+/* line 203, ../compass/sass/core.scss */
+.medium {
+  font-size: 20px;
+  line-height: 1.2em;
+}
+
+/* line 208, ../compass/sass/core.scss */
+.headline {
+  font-family: Hero;
+}
+
+/* line 212, ../compass/sass/core.scss */
+.silverBorderBottom {
+  border: 1px solid #e4e4e4;
+  border-width: 0 0 1px 0;
+  padding: 0 0 50px;
+}
+
+/*Hide checkbox*/
+/* line 221, ../compass/sass/core.scss */
+input {
+  display: none;
+}
+
+@media only screen and (max-width: 640px) {
+  /* line 226, ../compass/sass/core.scss */
+  #header {
+    padding: 0;
+  }
+  /* line 230, ../compass/sass/core.scss */
+  #header #navAreaWrapper input:checked ~ #navArea {
+    height: 200px;
+  }
+  /* line 233, ../compass/sass/core.scss */
+  #header #navAreaWrapper input:checked ~ #navArea #navLinks {
+    display: block;
+    width: 100%;
+  }
+  /* line 238, ../compass/sass/core.scss */
+  #header #navAreaWrapper input:checked ~ #navArea #navLinks ul li {
+    padding: 10px .5em;
+    width: 100%;
+    font-size: 18px;
+  }
+  /* line 243, ../compass/sass/core.scss */
+  #header #navAreaWrapper input:checked ~ #navArea #navLinks ul li a {
+    width: 100%;
+  }
+  /* line 251, ../compass/sass/core.scss */
+  #header #navAreaWrapper #navArea {
+    width: 100%;
+    height: 20px;
+  }
+  /* line 255, ../compass/sass/core.scss */
+  #header #navAreaWrapper #navArea #logo {
+    display: none;
+  }
+  /* line 259, ../compass/sass/core.scss */
+  #header #navAreaWrapper #navArea #menuBtn {
+    display: block;
+    width: 24px;
+    font-size: 24px;
+  }
+  /* line 265, ../compass/sass/core.scss */
+  #header #navAreaWrapper #navArea #navLinks {
+    display: none;
+  }
+  /* line 269, ../compass/sass/core.scss */
+  #header #navAreaWrapper #navArea #siteName {
+    font-size: 18px;
+    padding: 0;
+    margin: 10px 0 0 5%;
+    clear: right;
+    width: 85%;
+  }
+
+  /* line 282, ../compass/sass/core.scss */
+  #bodyArea #bannerAreaWrapper #bannerArea {
+    height: 200px;
+    margin-top: 10px;
+  }
+
+  /* line 290, ../compass/sass/core.scss */
+  .bodyElementGroup .threeColumn {
+    width: 100%;
+    padding: 0 0 20px;
+  }
+
+  /* line 296, ../compass/sass/core.scss */
+  .gallery {
+    float: left;
+    width: 80%;
+    margin: 60px 10% 0;
+  }
+  /* line 301, ../compass/sass/core.scss */
+  .gallery .photo {
+    float: left;
+    margin: 0 0 10px 0;
+    width: 100%;
+  }
+  /* line 306, ../compass/sass/core.scss */
+  .gallery .photo:first-child {
+    margin: 0 0 10px 0;
+  }
+}

@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Hero;
+    src: url("../../assets/fonts/Hero/Hero.otf") format("opentype");
+}
+
+@font-face {
+    font-family: HeroLight;
+    src: url("../../assets/fonts/Hero/HeroLight.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Audrey;
+    src: url("../../assets/fonts/Audrey/Audrey-Normal.otf") format("opentype");
+}
+
+@font-face {
+    font-family: AudreyBold;
+    src: url("../../assets/fonts/Audrey/Audrey-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: AudreyMedium;
+    src: url("../../assets/fonts/Audrey/Audrey-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Infinity;
+    src: url("../../assets/fonts/Infinity/Infinity.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Noir;
+    src: url("../../assets/fonts/NOIR/Noir_regular.otf") format("opentype");
+}
+
+$mainFont: Hero;
+$copyFont: HeroLight;
